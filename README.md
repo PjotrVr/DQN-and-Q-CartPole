@@ -17,7 +17,8 @@ Every main file can be run by writing in command line/terminal: `python3 main.py
 
 In case you don't want to use default parameters, you can switch them up, eg. `python3 main.py --lr 0.01`
 
-List of parameters that you can change: - `--lr` - learning rate <br>
+List of parameters that you can change: <br>
+                                        - `--lr` - learning rate <br>
                                         - `--discount` - discount factor for future rewards <br>
                                         - `--env` - name of the environment, currently only supports Gym environments <br>
                                         - `--capacity` - capacity for replay memory <br>
