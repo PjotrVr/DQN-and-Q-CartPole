@@ -17,20 +17,20 @@ Every main file can be run by writing in command line/terminal: `python3 main.py
 
 In case you don't want to use default parameters, you can switch them up, eg. `python3 main.py --lr 0.01`
 
-List of parameters that you can change: - `--lr` - learning rate
-                                        - `--discount` - discount factor for future rewards
-                                        - `--env` - name of the environment, currently only supports Gym environments
-                                        - `--capacity` - capacity for replay memory
-                                        - `--min_capacity` - amount of capacity that will be filled before training
-                                        - `--iterations` - number of iterations/episodes
-                                        - `--batch_size` - batch size used to sample replay memory
-                                        - `--target_freq_update` - frequency how often will target network take online network's parameters
-                                        - `--show_freq` - frequency how often will results be shown while training
-                                        - `--eps_start` - starting epsilon for epsilon-greedy exploration-exploitation policy
-                                        - `--eps_end` - ending epsilon for epsilon-greedy exploration-exploitation policy
-                                        - `--eps_decay` - amount how much will epsilon decrease while training
-                                        - `--save_model` - save model after training
-                                        - `--show_graphs` - show training graphs
+List of parameters that you can change: - `--lr` - learning rate <br>
+                                        - `--discount` - discount factor for future rewards <br>
+                                        - `--env` - name of the environment, currently only supports Gym environments <br>
+                                        - `--capacity` - capacity for replay memory <br>
+                                        - `--min_capacity` - amount of capacity that will be filled before training <br>
+                                        - `--iterations` - number of iterations/episodes <br>
+                                        - `--batch_size` - batch size used to sample replay memory <br>
+                                        - `--target_freq_update` - frequency how often will target network take online network's parameters <br>
+                                        - `--show_freq` - frequency how often will results be shown while training <br>
+                                        - `--eps_start` - starting epsilon for epsilon-greedy exploration-exploitation policy <br>
+                                        - `--eps_end` - ending epsilon for epsilon-greedy exploration-exploitation policy <br>
+                                        - `--eps_decay` - amount how much will epsilon decrease while training <br>
+                                        - `--save_model` - save model after training <br>
+                                        - `--show_graphs` - show training graphs <br>
 
 
 ## Before training
