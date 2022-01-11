@@ -1,9 +1,9 @@
-## About
+# About
 
 This project is about showing how much of a difference experience replay memory and additional target network make when learning
 even the simplest of the environments.
 
-## Requirements
+# Requirements
 
 You'll only need: torch, numpy, matplotlib and gym.
 
@@ -11,7 +11,7 @@ Exact versions are available in `requirements.txt` file.
 
 You can install those modules in command line/terminal using command: `pip install -r requirements.txt`
 
-## Running a file
+# Usage
 
 Every main file can be run by writing in command line/terminal: `python3 main.py`
 
@@ -33,8 +33,7 @@ List of parameters that you can change: <br>
                                         - `--save_model` - save model after training <br>
                                         - `--show_graphs` - show training graphs <br>
 
-
-## Before training
+# Before training
 
 Before training we can only solve this environment by using random action evey single time.
 
@@ -42,8 +41,7 @@ Obviously that won't work as we can see below.
 
 <img src="CartPole Before Training Random Movement.gif"> </img>
 
-
-## After training - Q learning
+# After training - Q learning
 
 CartPole has 4 parameters in its observation space and it's also continuous. 
 
@@ -53,7 +51,7 @@ This means that we have too many states to learn and 15000 iterations aren't eno
 
 <img src="CartPole Q Learning After Training.gif"> </img>
 
-## After training - DQN learning
+# After training - DQN learning
 
 In DQN learning we don't have to have discrete observation space, we can approximate every single state from previous encounters.
 
@@ -61,7 +59,7 @@ Still that is the only upside of this method, it is also a lot slower than norma
 
 <img src="CartPole DQN Learning After Training.gif"> </img>
 
-## After training - DQN with replay memory
+# After training - DQN with replay memory
 
 With inclusion of experience replay memory we can start to see actual progress.
 
@@ -69,7 +67,7 @@ Biggest problem with this method is that we use same network for evaluating and 
 
 <img src="CartPole DQN RM Learning After Training.gif"> </img>
 
-## After training - DQN with target network and replay memory
+# After training - DQN with target network and replay memory
 
 This method with inclusion of target network really works!
 
@@ -77,7 +75,7 @@ Only downside is that it's slow, but considering that it actually only needed ~4
 
 <img src="CartPole DQN TN RM Learning After Training.gif"> </img>
 
-## Results
+# Results
 
 This graph shows results of training.
 
